@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChiRews - Агрегатор рейтингов китайских производителей</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand" onclick="location.hash='#/search'">
+        <div class="logo">CR</div>
+        <div>
+          <div class="title">Chirews.ru</div>
+          <div class="subtitle">Отзывы, рекомендации и аналитика по заказам из Китая</div>
+        </div>
+      </div>
+      <nav class="nav" id="nav">
+        <a href="#/search" data-route="search">Поиск</a>
+        <a href="#/new" data-route="new">Оставить отзыв</a>
+        <a href="#/analytics" data-route="analytics">Аналитика</a>
+        <a href="#/profile" data-route="profile">Профиль</a>
+        <a href="#/auth" data-route="auth" id="authLink">Войти</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" id="app"></main>
+
+  <div class="toast-wrap" id="toasts"></div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+backend/.venv/
+
+# Env / секреты
+.env
+backend/.env
+
+# БД
+*.db
+backend/app.db
+
+# Модели
+*.pkl
+*.pt
+
+# IDE
+.vscode/
+.idea/

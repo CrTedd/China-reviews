@@ -1,0 +1,10 @@
+# Не копировать в Docker-образ:
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+app.db
+*.db
+.git/
+tests/
